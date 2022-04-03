@@ -1,0 +1,63 @@
+#performance{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    min-width: 400px;
+    width: 100%;
+    height : 20%;
+    background-color: #b8775c;
+    flex-direction: row;
+    border: solid medium black;
+    border-radius: 1em 1em 0 0;
+
+}
+
+#letterZone{
+    display: flex;
+    flex: 3;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.letterBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5%;
+    min-width: 2.5%;
+    font-size: 150%;
+    color: black;
+}
+
+.grey{
+    background-color: #b8775c;
+}
+
+.failure{
+    color: red;
+}
+
+#clickToActivate{
+    display : flex;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#totype{
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    from {background-color: #dfd9d9}
+    to {background-color: rgba(0,0,0,0.5)}
+}
+
+#clickToActivate:hover{
+    cursor: pointer;
+    font-size: 1.5em;
+}

@@ -1,0 +1,60 @@
+#options{
+    display : flex;
+    flex : 1;
+    flex-direction: column;
+}
+
+#letterGenerationLogic{
+    display: flex;
+    flex: 1;
+    background-color: #ffbc84;
+    border: solid grey;
+    border-width: 0 medium 0 medium;
+    align-items: center;
+}
+
+#language{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffd8ae;
+    border: solid medium grey;
+
+}
+
+.imgLang{
+    display: flex;
+    border-radius: 100%;
+    width: 6em;
+    height : 6em;
+
+}
+
+.imgLang:hover{
+    width : 8em;
+    height: 8em;
+    cursor: pointer;
+}
+
+#textLang{
+    display: flex;
+    height :33%;
+    justify-content: center;
+    align-items: center;
+}
+
+#flags{
+    display: flex;
+    height: 33%;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.paddingLang{
+    display : flex;
+    height: 33%;
+}

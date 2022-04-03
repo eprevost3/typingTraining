@@ -1,0 +1,33 @@
+#nbLetters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#textNbLetters{
+    display: flex;
+    flex : 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#dropdown{
+    display: flex;
+    flex : .3;
+    width: 40%;
+    border-radius: 15%;
+}
+
+
+#paddingNbLetters{
+    display: flex;
+    flex : 1;
+}
+
+#nbLetters{
+    display: flex;
+    flex: 1;
+    background-color: #a85e42;
+    align-items: center;
+    border: solid medium grey;
+}

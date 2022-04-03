@@ -1,0 +1,51 @@
+#upDownPlot{
+    display: flex;
+    background-color: #663932;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    flex : 1;
+    border: solid medium black;
+    border-radius: 1em 1em 0 0;
+
+}
+
+#emptyGraph{
+    display: flex;
+    flex : 10;
+
+}
+
+#upDownImg{
+    display: flex;
+    width: 3em;
+    height : 3em;
+}
+
+#plotBox{
+    display: flex;
+}
+
+
+.goUp{
+    animation-name: goUp;
+    animation-fill-mode: forwards;
+    animation-duration: 0.7s;
+}
+
+.goDown{
+    animation-name: goDown;
+    animation-fill-mode: forwards;
+    animation-duration: 0.7s;
+}
+
+@keyframes goUp {
+    from {transform : rotate(0deg)}
+    to {transform: rotate(180deg)}
+}
+
+@keyframes goDown {
+    from {transform : rotate(180deg)}
+    to {transform: rotate(0deg)}
+}

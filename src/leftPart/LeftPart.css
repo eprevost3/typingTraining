@@ -1,0 +1,41 @@
+#leftpart{
+    display: flex;
+    flex : 5;
+    flex-direction : column;
+    justify-content : space-between;
+    align-items: center;
+    opacity: 0.9;
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#typingzone{
+    display : flex;
+    flex: 5;
+    flex-direction: column;
+    background-color: #ffbc84;
+    justify-content: center;
+    align-items: center;
+    width : 50%;
+    min-width: 800px;
+    min-height : 100px;
+    border-radius: 1em;
+    border: solid grey;
+    border-width: 0 medium medium medium;
+}
+
+.padding{
+    display : flex;
+    flex : 5;
+}
+
+#plotBox{
+    display: flex;
+    flex: 12;
+    flex-direction: column;
+    justify-content: space-between;
+    width : 50%;
+    min-width: 800px;
+    min-height : 100px;
+}
