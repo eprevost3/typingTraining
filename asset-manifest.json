@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/typingTraining/static/css/main.8ccd5bb0.css",
+    "main.js": "/typingTraining/static/js/main.a606c0b3.js",
+    "static/js/787.7328f4f6.chunk.js": "/typingTraining/static/js/787.7328f4f6.chunk.js",
+    "static/media/background.png": "/typingTraining/static/media/background.d9614e9e79027a09c881.png",
+    "static/media/US_flag.jpg": "/typingTraining/static/media/US_flag.590e4bf8ef2e629052ff.jpg",
+    "static/media/upDown.png": "/typingTraining/static/media/upDown.d83e55cbbd1d405ce9d6.png",
+    "index.html": "/typingTraining/index.html",
+    "main.8ccd5bb0.css.map": "/typingTraining/static/css/main.8ccd5bb0.css.map",
+    "main.a606c0b3.js.map": "/typingTraining/static/js/main.a606c0b3.js.map",
+    "787.7328f4f6.chunk.js.map": "/typingTraining/static/js/787.7328f4f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ccd5bb0.css",
+    "static/js/main.a606c0b3.js"
+  ]
+}
